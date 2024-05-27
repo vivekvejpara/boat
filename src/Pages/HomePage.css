@@ -1,0 +1,391 @@
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.slick-next {
+  position: absolute;
+  right: 20px;
+}
+
+.slick-arrow.slick-next::before {
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 40px;
+  right: 0px;
+  position: absolute;
+  display: none;
+}
+
+.cart {
+  border: 1px solid rgba(156, 156, 156, 0.301);
+}
+
+.cart:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin-top: 3px;
+  border-radius: 10px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.main_cart {
+  background-color: #fafafa;
+}
+
+.lifestyleColor {
+  background-color: #eff4f7;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-1 {
+  color: #2f5b96;
+}
+
+.text_color {
+  color: #1a2024;
+}
+
+.lastPriceColor {
+  color: #a8afb6;
+}
+
+.offColor {
+  color: #12b985;
+}
+
+.CorporateTextP3 {
+  margin-top: 80px;
+}
+
+.CorporateTextBtn {
+  margin-top: 35px;
+}
+
+.btnHover:hover {
+  background-color: #54524d;
+  color: white;
+  transition: 0.7s ease-in-out;
+  border: none;
+}
+
+.btnHover1 {
+  background: #54524d;
+  color: white;
+}
+
+.btnHover1:hover {
+  background-color: #54524dca;
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .main_img img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slick-slider {
+    overflow: hidden;
+  }
+
+  .bestSellers {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .bestSellers .bestSellersTextName {
+    font-size: 12px;
+  }
+
+  .bestSellerText {
+    padding-left: 25px;
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+
+  .main_cart {
+    padding: 5px;
+  }
+
+  .First_cart {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .First_cart_Row {
+    display: grid;
+    width: 95%;
+    gap: 10px;
+    margin-bottom: 10px;
+    grid-auto-rows: auto auto auto auto;
+  }
+
+  .First_cart_Row_Temp {
+    display: grid;
+    grid-auto-rows: auto auto auto auto;
+  }
+
+  .First_cart_Text_Name {
+    font-size: 15px;
+  }
+
+  .First_cart_Text_Color {
+    font-size: 13px;
+  }
+
+  .First_cart_Text_Price {
+    font-size: 16px;
+  }
+
+  .First_cart_Text_Rating {
+    font-size: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .ShopByCategory {
+    display: grid;
+    padding: 20px 0px;
+    grid-template-columns: auto auto;
+  }
+
+  .ShopByCategory .ShopByCategoryText {
+    font-size: 12px;
+  }
+
+  .ShopByCategory .ShopByCategoryImage {
+    height: 60px;
+  }
+
+  .WarratyCart {
+    padding: 2px 0px;
+  }
+
+  .Tribe_padding {
+    padding: 4px;
+  }
+
+  .Tribe_name {
+    font-size: 12px;
+  }
+
+  .Tribe_Price {
+    font-size: 13px;
+  }
+
+  .lastPriceColor {
+    font-size: 10px;
+  }
+
+  .offColor {
+    font-size: 10px;
+  }
+
+  .PressCart {
+    padding: 40px;
+  }
+
+  .PressCartImg {
+    height: 50px;
+  }
+
+  .PressCartMainText {
+    padding: 13px;
+  }
+
+  .PressCartMainTextAwesome {
+    font-size: 30px;
+  }
+
+  .PressCartMainTextContent {
+    font-size: 15px;
+  }
+
+  .PressCartMainTextBtn {
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .todaysOfferRes {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .todaysOfferResBtn {
+    font-size: 12px;
+    margin-right: 30px;
+  }
+
+  .gift_main {
+    width: 90%;
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .Corporate_main {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+  }
+
+  .CorporateTextMain {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .CorporateTextP1 {
+    font-size: 25px;
+  }
+
+  .CorporateTextP2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .CorporateTextP3 {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+  .CorporateTextP4 {
+    font-size: 15px;
+  }
+
+  .CorporateTextP5 {
+    font-size: 13px;
+  }
+
+  .CorporateTextP6 {
+    font-size: 16px;
+  }
+
+  .CorporateTextBtn {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 70%;
+    padding: 10px 0;
+  }
+
+  .ThreeMainBtnDiv {
+    padding-top: 10px;
+  }
+
+  .ThreeMainBtn {
+    display: grid;
+    grid-template-rows: auto auto auto;
+  }
+
+  .ThreeMainBtn .Mainbtns {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .arrow {
+    font-size: 9px;
+    margin-left: 10px;
+  }
+
+  .OrderReceive {
+    margin: 20px 0px;
+    padding: 10px 0px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .checkFont {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .OrderReceivedText {
+    margin: 0px;
+  }
+
+  .OrderStatus {
+    margin: 20px 0px;
+  }
+
+  .OrderStatusGrid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    font-size: 13px;
+    gap: 10px;
+  }
+
+  .OrderSummary {
+    margin: 30px 0px;
+  }
+
+  .OrderSummarytext {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .OrderSummaryMain {
+    padding: 10px;
+  }
+
+  .OrderSummaryProducts {
+    margin: 20px 0px;
+    font-size: 15px;
+  }
+
+  .OrderSummaryProductsHr {
+    margin-bottom: 10px;
+  }
+
+  .subTotal {
+    font-size: 15px;
+  }
+
+  .PaymentM {
+    padding: 10px 0px;
+    font-size: 15px;
+  }
+
+  .PaymentMain {
+    display: flex;
+    gap: 110px;
+  }
+
+  .BillingDetail {
+    width: 100%;
+  }
+
+  .YourOrder {
+    padding: 10px;
+    line-height: 2;
+  }
+
+  .ProductImage {
+    width: 20%;
+  }
+
+  .PQSFlex {
+    width: 100%;
+  }
+
+  .CartImage {
+    width: 10%;
+  }
+}

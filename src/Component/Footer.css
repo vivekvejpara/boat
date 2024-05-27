@@ -1,0 +1,50 @@
+.Footer {
+  background-color: #e7f0f5;
+}
+
+li {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .Footer {
+    margin: 15px;
+    padding: 20px 10px;
+  }
+  .FooterLogoPart {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .Logo_Width {
+    height: 40px;
+  }
+
+  .h1_logo_text {
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Footer_row {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .FooterRelative .FooterAbsolute {
+    display: none;
+  }
+
+  .FooterRelative:hover .FooterAbsolute {
+    display: block;
+  }
+}
+
+.li {
+  margin: 10px 0px;
+}
